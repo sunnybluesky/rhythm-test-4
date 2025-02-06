@@ -1,0 +1,17 @@
+@font-face {
+    font-family:"keifont";
+    src:url("keifont.woff") format("woff");
+  }
+  @font-face {
+  font-family:"keifont-lighter";
+    src:url("keifont.woff") format("woff");
+  font-weight: lighter;
+  }
+html{
+  margin:0px;
+}
+body{
+  margin:0px;
+  color: aliceblue;
+    background-color: black;
+}
