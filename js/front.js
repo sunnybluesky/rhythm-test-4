@@ -214,10 +214,10 @@ window.addEventListener("load_complete", () => {
         { name: "background", scene: "title", x: 640, y: 360, type: "img", img: assets.img.bg.bg1 }
     ))
     spriteList.push(new Sprite(
-        { name: "title_logo", scene: "title", x: 640, y: 100, type: "img", img: assets.img.logo, size: 0.3, }
+        { name: "title_logo", scene: "title", x: 640, y: 100, type: "img", img: assets.img.logo, size: 0.8, }
     ))
     spriteList.push(new Sprite(
-        { name: "press_enter", scene: "title", x: 640, y: 600, type: "img", img: assets.img.press_enter, size: 0.1, opacity:0.5}
+        { name: "press_enter", scene: "title", x: 640, y: 600, type: "img", img: assets.img.press_enter, size: 0.4, opacity:0.5}
     ))
     spriteList.push(new Sprite(
         { name: "blackout", scene: "any", type: "blackout" , speed:3,}
